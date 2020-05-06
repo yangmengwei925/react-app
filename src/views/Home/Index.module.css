@@ -1,0 +1,293 @@
+.index {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.04rem;
+}
+
+.index .channelWrap {
+  width: 100%;
+  height: 1.4rem;
+  background: #fff;
+  display: flex;
+}
+
+.index .channelWrap .channelitem {
+  width: 20%;
+  height: 1.4rem;
+}
+
+.index .channelWrap .channelitem .channelitem_dt {
+  width: 100%;
+  height: 75%;
+}
+
+.index .channelWrap .channelitem .channelitem_dt .channelitem_img {
+  width: 0.96rem;
+  height: 0.96rem;
+  padding: 0.2rem;
+  margin: 0 0.27rem;
+  box-sizing: border-box;
+}
+
+.index .channelWrap .channelitem .channelitem_dd {
+  width: 100%;
+  height: 25%;
+  flex: row,space-around;
+  font-size: 0.24rem;
+}
+
+.index .brandBox {
+  width: 100%;
+  height: 5.4rem;
+  margin-top: .2rem;
+}
+
+.index .brandBox .brandBox_tit {
+  height: 1rem;
+  background: #fff;
+  text-align: center;
+  font-size: .3rem;
+  line-height: 1rem;
+  letter-spacing: .02rem;
+  font-weight: 700;
+}
+
+.index .brandBox .brandBox_list {
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index .brandBox .brandBox_list a {
+  width: 50%;
+  height: 2.2rem;
+  position: relative;
+}
+
+.index .brandBox .brandBox_list a .brandItemName {
+  position: absolute;
+  top: .2rem;
+  left: .2rem;
+  color: black;
+  font-size: .3rem;
+}
+
+.index .brandBox .brandBox_list a .brandItemMinPrice {
+  position: absolute;
+  top: .6rem;
+  left: .2rem;
+  font-size: .24rem;
+  color: #a9a9a9;
+}
+
+.index .brandBox .brandBox_list a img {
+  width: 100%;
+  height: 100%;
+  max-height: 4rem;
+}
+
+.index .newGroods {
+  background: #fff;
+}
+
+.index .newGroods .newGroods_tit {
+  height: 1rem;
+  background: #fff;
+  text-align: center;
+  font-size: .3rem;
+  line-height: 1rem;
+  letter-spacing: .02rem;
+  font-weight: 700;
+}
+
+.index .newGroods .newGroods_list {
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index .newGroods .newGroods_list a {
+  width: 50%;
+  height: 4rem;
+}
+
+.index .newGroods .newGroods_list a img {
+  width: 100%;
+  height: 65%;
+}
+
+.index .newGroods .newGroods_list a .tit,
+.index .newGroods .newGroods_list a .price {
+  height: 15%;
+  flex: row,center,center;
+  font-size: .3rem;
+}
+
+.index .newGroods .newGroods_list a .price {
+  color: #8B0000;
+}
+
+.index .hotGroods {
+  margin-top: .2rem;
+  background: #fff;
+}
+
+.index .hotGroods .hotGroods_tit {
+  height: 1rem;
+  background: #fff;
+  text-align: center;
+  font-size: .3rem;
+  line-height: 1rem;
+  letter-spacing: .02rem;
+  font-weight: 700;
+}
+
+.index .hotGroods .hotGroods_list {
+  width: 100%;
+  padding: 0 .2rem;
+  min-height: 200px;
+}
+
+.index .hotGroods .hotGroods_list a > div > div {
+  height: 33.3333%;
+  display: flex;
+  align-items: center;
+}
+
+.index .hotGroods .hotGroods_list a {
+  height: 3rem;
+  position: relative;
+  padding: .1rem 0;
+  display: flex;
+}
+
+.index .hotGroods .hotGroods_list a img {
+  width: auto;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.index .hotGroods .hotGroods_list a .hotGroods_infos {
+  flex: 1 1;
+  padding: .5rem 0;
+}
+
+.index .hotGroods .hotGroods_list a .hotGroods_infos .hotGroods_name {
+  font-size: .32rem;
+}
+
+.index .hotGroods .hotGroods_list a .hotGroods_infos .hotGroods_info {
+  color: #a9a9a9;
+  font-size: .28rem;
+}
+
+.index .hotGroods .hotGroods_list a .hotGroods_infos .hotGroods_price {
+  color: #8b0000;
+  font-size: .3rem;
+}
+
+.index .topGoodsBox {
+  margin-top: .2rem;
+  background: #fff;
+}
+
+.index .topGoodsBox .topGoodsTitle {
+  height: 1rem;
+  background: #fff;
+  text-align: center;
+  font-size: .3rem;
+  line-height: 1rem;
+  letter-spacing: .02rem;
+  font-weight: 700;
+}
+
+.index .topGoodsBox .topGoodsWrap {
+  height: auto;
+  padding-bottom: .2rem;
+}
+
+.index .cateGoryBox {
+  height: auto;
+}
+
+.index .cateGoryBox .cateGoryName {
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: .30rem;
+  vertical-align: initial;
+  font-weight: 400;
+}
+
+.index .cateGoryBox .cateGoryGoodsWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index .cateGoryBox .cateGoryGoodsWrap > a {
+  width: 50%;
+  height: auto;
+  background: #fff;
+  padding: .2rem;
+  box-sizing: border-box;
+  position: relative;
+  text-decoration: none;
+}
+
+.index .cateGoryBox .cateGoryGoodsWrap > a .goodsItemImg,
+.index .cateGoryBox .cateGoryGoodsWrap > a .goodsItemImg > img {
+  width: 100%;
+  height: auto;
+}
+
+.index .cateGoryBox .cateGoryGoodsWrap > a .goodsItemImg {
+  min-height: 2rem;
+}
+
+.index .cateGoryBox .cateGoryGoodsWrap > a .goodsItemName,
+.index .cateGoryBox .cateGoryGoodsWrap > a .goodsItemPrice {
+  text-align: center;
+  font-size: .28rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.index .cateGoryBox .cateGoryGoodsWrap > a .goodsItemName {
+  padding-bottom: .3rem;
+  padding-top: .1rem;
+  color: #000;
+}
+
+.index .cateGoryBox .cateGoryGoodsWrap > a .goodsItemPrice {
+  color: red;
+}
+
+.index .cateGoryBox .categoryMoreGoods {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.index .cateGoryBox .categoryMoreGoods div {
+  width: 100%;
+  text-align: center;
+  font-size: .32rem;
+  color: #000;
+}
+
+.index .cateGoryBox .categoryMoreGoods img {
+  padding: .4rem;
+  height: .6rem;
+}
+
+.index > div:first-child {
+  width: 100%;
+}
